@@ -6,11 +6,15 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .titel-color{
     color: darkslateblue;
 }
-section{
+.flexibole-content{
     display: flex;
+    margin: 40px;
 }
 .titel-1{
     width: 50%;
@@ -32,4 +36,56 @@ section{
 .section-top{
     background-image: url(/image/top-banner.png);
     background-repeat: no-repeat;
+}
+.titel-2 {
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 20px;
+    
+}
+.titel-2 img {
+    width: 80%;
+    margin-top: 20px;
+}
+.section-medil{
+    background-image: url(/image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.expereance-item{
+    
+    background-image: url(/image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: ;
+}
+.expereance-item{
+    width: 40%;
+    padding-left: 10px;
+    border-radius: 15px;
+    padding-right: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    
+    
+}
+#web-dev-ex{
+    border-left: 7px solid ;
+    border-image: linear-gradient(#FF9910, #FF5F4E);
+    border-image-slice: 1;
+}
+#seo-ex{
+    border-left: 7px solid ;
+    border-image: linear-gradient(#1050ff, #edff4e);
+    border-image-slice: 1;
+}
+
+.expereance-area h1{
+    
+    padding-left: 6%;
+}
+footer p{
+    font-size: 20px;
+    margin-top: 100px;
+    text-align:center;
 }
